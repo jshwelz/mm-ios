@@ -87,7 +87,7 @@
                 <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QgD-5j-po7">
                     <frame key="frameInset" height="49"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                    <color key="backgroundColor" red="0.3335897021" green="0.15701120700000001" blue="0.19996372809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                     <items>
                         <tabBarItem title="ACORDES" image="acordes_destacada" selectedImage="guitar-icon" id="5G7-XC-wZu"/>
                         <tabBarItem title="CANCIONES" image="acordes_destacada" id="5CQ-EH-nKg"/>

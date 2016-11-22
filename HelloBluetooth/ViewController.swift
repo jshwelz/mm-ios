@@ -11,6 +11,7 @@ class ViewController: UIViewController {
         simpleBluetoothIO = SimpleBluetoothIO(serviceUUID: "19B10010-E8F2-537E-4F6C-D104768A1214", delegate: self)
     }
 
+    //button action for the DO chord
     @IBAction func ledToggleButtonDown(sender: UIButton) {
         simpleBluetoothIO.writeValue(1)
     }
@@ -20,34 +21,37 @@ class ViewController: UIViewController {
     }
 
     
-    
+    //button action for the RE chord
     @IBAction func RE(sender: AnyObject) {
         simpleBluetoothIO.writeValue(2)
     }
     
 
-    
+    //button action for the MI chord
     @IBAction func MI(sender: AnyObject) {
         simpleBluetoothIO.writeValue(3)
     }
     
     
-    
+    //button action for the FA chord
     @IBAction func FA(sender: AnyObject) {
         simpleBluetoothIO.writeValue(4)
     }
     
+    //button action for the SOL chord
     @IBAction func SOL(sender: AnyObject) {
         simpleBluetoothIO.writeValue(5)
     }
     
     
+    //button action for the La menor chord
     @IBAction func LAm(sender: AnyObject) {
         simpleBluetoothIO.writeValue(6)
     }
     
  
     
+    //button action for the SI chord
     @IBAction func SI(sender: AnyObject) {
         simpleBluetoothIO.writeValue(7)
     }
